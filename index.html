@@ -38,7 +38,7 @@
   <div id="messages"></div>
 
   <script>
-    const socket = new WebSocket('ws://localhost:3000'); // URL del servidor WebSocket
+    const socket = new WebSocket('ws://localhost:4000'); // Cambiado a puerto 4000
 
     socket.addEventListener('open', function () {
       console.log('Conectado al servidor WebSocket');
